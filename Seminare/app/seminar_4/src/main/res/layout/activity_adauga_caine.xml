@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdaugaCaineActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nume: " />
+
+        <EditText
+            android:id="@+id/editTextNume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Rex" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este agresiv: " />
+
+        <CheckBox
+            android:id="@+id/checkBoxEsteAgresiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rasa: " />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioMaidanez"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maidanez" />
+
+            <RadioButton
+                android:id="@+id/radioLabrador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Labrador" />
+
+            <RadioButton
+                android:id="@+id/radioCiobanescGerman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciobanesc German" />
+
+            <RadioButton
+                android:id="@+id/radioBison"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bison" />
+
+            <RadioButton
+                android:id="@+id/radioAlta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alta" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dimensiune: " />
+
+        <Spinner
+            android:id="@+id/spinnerDimensiune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/dimensiuni" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel de dragutenie: " />
+
+        <RatingBar
+            android:id="@+id/ratingBarNivelDragutenie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este jucaus: " />
+
+        <Switch
+            android:id="@+id/switchEsteJucaus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Adauga caine" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+Laborator 4
+
+
+
+1. Creați o aplicație în Android Studio cu o activitate Empty Views, în java, cu API 23.
+
+2. Creați o clasă pentru un obiect din realitate care conține o initiala din numele tau.
+
+3. Adăugați o nouă activitate în cadrul proiectului pentru preluarea de date pentru crearea de obiecte de tipul clasei create anterior. Activitatea trebuie să conțină view-uri de tipul: TextView, EditText, Button, CheckBox, RadioButton, Spinner, RattingBar, Switch. Această activitate de introducere date este deschisă din prima activitate printr-un buton de adăugare.
+
+4. Datele introduse de utilizator sunt folosite pentru crearea unei instanțe a clasei. Această instanță este returnată către prima activitate, din cadrul căreia a fost deschisă activitatea de introducere date. Obiectul este transmis prin bundle (poate fi folosit si Parcelable sau trimiteți fiecare atribut in parte). În activitatea principală este afișat obiectul prin intermediul unui Toast sau un TextView.
