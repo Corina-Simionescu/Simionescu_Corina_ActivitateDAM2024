@@ -1,0 +1,12 @@
+Laborator 5
+
+
+
+1. Datele introduse de utilizator in activitatea de adaugare sunt folosite pentru crearea unei instanțe a clasei. Această instanță este returnată către prima activitate, din cadrul căreia a fost deschisă activitatea de introducere date. Obiectul este transmis prin bundle (poate fi folosit si Parcelable sau trimiteți fiecare atribut in parte). În activitatea principală Acest obiect îl adăugați într-o listă de obiecte (ArrayList).
+
+2. Adaugati o a treia activitate in care folosiți un ListView pentru afișarea tuturor obiectelor din listă. În clasa creată implementați metoda toString, iar în ListView afișați obiectele utilizând această metodă.
+
+3. Atunci când utilizatorul selectează din ListView un obiect, acesta este afișat prin intermediul unui Toast.
+
+4. Pentru evenimentul de LongItemClick pe un obiect din lista, acesta este șters din ListView dar și din lista de obiecte.
+
