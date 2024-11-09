@@ -1,0 +1,9 @@
+Laborator 6
+
+1. Utilizați proiectul din laboratorul precedent.
+
+2. Modificați modul de afișare a obiectelor în ListView utilizând un Adapter personalizat. Modul de prezentare este la alegerea voastră.
+
+3. Modificați funcționalitatea metodei abonată la evenimentul de ItemClick, astfel încât să se deschidă activitatea de completare date pentru modificarea obiectului selectat. La deschiderea activității câmpurile sunt completate cu informațiile primite de la obiectul selectat, iar la salvare vor fi modificate în acel obiect. Mare atenție: nu adăugați un alt obiect ci îl modificați pe cel selectat.
+
+4. Pentru trimiterea obiectelor intre activitati trebuie sa folositi Parcelable.
