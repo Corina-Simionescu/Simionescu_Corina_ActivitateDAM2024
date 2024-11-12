@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test_1_Practice_4</string>
+    <string-array name="tiputiDeConfort">
+        <item>Confort 1</item>
+        <item>Confort 2</item>
+        <item>Confort 3</item>
+    </string-array>
+</resources>

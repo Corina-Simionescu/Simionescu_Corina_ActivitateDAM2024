@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdaugaLocuintaActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresa:" />
+
+        <EditText
+            android:id="@+id/editTextAdresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="bulevardul iuliu maniu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkboxDeLux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este de lux" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip de locuinta" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonGarsoniera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="garsoniera" />
+
+            <RadioButton
+                android:id="@+id/radioButtonApartament"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="apartament" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPenthouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="penthouse" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confort" />
+
+        <Spinner
+            android:id="@+id/spinnerConfort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/tiputiDeConfort" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating" />
+
+        <RatingBar
+            android:id="@+id/ratingBarRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="2.5"
+            android:stepSize="0.5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switchFrumoasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este frumoasa" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data cumpararii:" />
+
+        <DatePicker
+            android:id="@+id/datePickerData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAdauga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adauga" />
+
+</LinearLayout>
