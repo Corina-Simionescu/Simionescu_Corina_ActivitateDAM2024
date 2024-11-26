@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">seminar_8</string>
+    <string-array name="dimensiuni">
+        <item>Mic</item>
+        <item>Mediu</item>
+        <item>Mare</item>
+    </string-array>
+</resources>
