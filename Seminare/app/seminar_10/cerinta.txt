@@ -1,0 +1,17 @@
+Laborator 10
+
+Implementarea unei baze de date cu ROOM.
+
+Modificati clasa din cadrul proiectului, astfel incat sa fie o entitate.
+
+Realizati interfata DAO si clasa abstracta pentru Baza de date.
+
+Realizati urmatoarele metode de lucru cu baza de date:
+
+1.      Metoda de inserare in baza de date a unui obiect de tipul clasei voastre; - in activitatea de adaugare, atunci cand obiectul este creat sa il salvati in baza de date.
+
+2.      Metoda de selectie a tuturor inregistrarilor din tabela; - in activitatea de afisare a obiectelor, aduceti si din baza de date obiectele salvate si le afisati in acelasi ListView.
+
+3.      Alte metode de lucru cu inregistrarile din baza de date
+
+Apelati toate metodele implementate.
