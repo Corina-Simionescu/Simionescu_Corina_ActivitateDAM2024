@@ -1,0 +1,8 @@
+1. Utilizați proiectul din laboratorul precedent.
+
+2. Modificați activitatea de adăugare de noi obiecte, astfel încât atunci când un nou obiect de tipul clasei voastre este creat să fie salvat și într-un fișier. Salvarea noului obiect se face prin adăugarea acestuia în fișier.
+
+3. În activitatea unde aveti listview-ul cu obiectele afisate modificați funcționalitatea de LongItemClick, astfel încât prin acest eveniment să fie salvat obiectul selectat într-un fișier de tip SharedPreferences de obiecte favorite. Aveti grija la salvarea acestora sa permiteti salvarea mai multor obiecte.
+
+4. Adăugați o nouă activitate de in care sa aveti un nou listView si in care afisati obiectele favorite din acel fisier de SharedPreferences.
+
