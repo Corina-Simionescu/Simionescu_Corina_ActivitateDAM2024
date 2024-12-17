@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test_2_Practice_2</string>
+    <string name="veziDateJson">Vezi date json</string>
+    <string name="veziDateXML">Vezi date xml</string>
+    <string name="veziDateJsonFormtate">Vezi date json formatate</string>
+    <string name="veziDateXMLFormtate">Vezi date xml formatate</string>
+</resources>

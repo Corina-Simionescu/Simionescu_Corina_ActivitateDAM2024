@@ -1,0 +1,73 @@
+•	Practice_1
+
+  1. Creează două activități, setând inițial Activity 2 ca punct de start
+  2. Modifică înapoi Activity 1 ca punct de start
+  3. Din Activity 1: implementează un buton care deschide Activity 2 și îi transmite un text
+  4. În Activity 2: afișează textul primit într-un Toast și într-un TextView
+  5. Din Activity 2: implementează un buton de întoarcere la Activity 1 care transmite un text înapoi, afișat în Toast și TextView
+
+
+•	Practice_2
+
+  1. Creează 4 activități și o clasă la alegere
+  2. Activity 1: 
+    o Buton 1: deschide Activity 2 și trimite un obiect
+    o Buton 2: deschide Activity 3 și trimite o listă de obiecte
+    o Buton 3: deschide Activity 4 și trimite aceeași listă
+  3. În Activity 2: afișează obiectul primit în Toast și TextView
+  4. În Activity 3: afișează lista în ListView cu funcționalitate la click
+  5. În Activity 4: afișează lista folosind un layout personalizat si adaugi funcționalitate la click
+
+
+•	Practice_3
+
+  1. Activity 1 (Principal): 
+    o Buton către Activity 2 (Formular)
+    o Buton către Activity 3 (ListView simplu)
+    o Buton către Activity 4 (ListView customizat)
+  2. Activity 2 (Formular): 
+    o Formular cu: TextView, EditText, Button, CheckBox, RadioButton, Spinner, RatingBar, Switch, DatePicker
+    o Creează/Modifică obiect bazat pe datele din formular
+    o Returnează obiectul către activitatea apelantă
+  3. Activity 3 (Listă cu operații): 
+    o Afișează lista de obiecte în ListView
+    o Click scurt: deschide formularul pentru editare
+    o Click lung: șterge obiectul cu confirmare Toast
+    o După editare: afișează Toast cu obiectul modificat
+  4. Activity 4: 
+    o Afișează lista cu layout personalizat
+    o Implementează aceleași funcționalități ca în Activity 3 (opțional)
+
+
+•	Practice_4
+ 
+ Laborator 4
+
+1. Creați o aplicație în Android Studio cu o activitate Empty Views, în java, cu API 23.
+
+2. Creați o clasă pentru un obiect din realitate care conține o initiala din numele tau.
+
+3. Adăugați o nouă activitate în cadrul proiectului pentru preluarea de date pentru crearea de obiecte de tipul clasei create anterior. Activitatea trebuie să conțină view-uri de tipul: TextView, EditText, Button, CheckBox, RadioButton, Spinner, RattingBar, Switch. Această activitate de introducere date este deschisă din prima activitate printr-un buton de adăugare.
+
+4. Datele introduse de utilizator sunt folosite pentru crearea unei instanțe a clasei. Această instanță este returnată către prima activitate, din cadrul căreia a fost deschisă activitatea de introducere date. Obiectul este transmis prin bundle (poate fi folosit si Parcelable sau trimiteți fiecare atribut in parte). În activitatea principală este afișat obiectul prin intermediul unui Toast sau un TextView.
+
+Laborator 5.
+
+1. Datele introduse de utilizator in activitatea de adaugare sunt folosite pentru crearea unei instanțe a clasei. Această instanță este returnată către prima activitate, din cadrul căreia a fost deschisă activitatea de introducere date. Obiectul este transmis prin bundle (poate fi folosit si Parcelable sau trimiteți fiecare atribut in parte). În activitatea principală Acest obiect îl adăugați într-o listă de obiecte (ArrayList).
+
+2. Adaugati o a treia activitate in care folosiți un ListView pentru afișarea tuturor obiectelor din listă. În clasa creată implementați metoda toString, iar în ListView afișați obiectele utilizând această metodă.
+
+3. Atunci când utilizatorul selectează din ListView un obiect, acesta este afișat prin intermediul unui Toast.
+
+4. Pentru evenimentul de LongItemClick pe un obiect din lista, acesta este șters din ListView dar și din lista de obiecte.
+
+Laborator 6
+
+1. Utilizați proiectul din laboratorul precedent.
+
+2. Modificați modul de afișare a obiectelor în ListView utilizând un Adapter personalizat. Modul de prezentare este la alegerea voastră.
+
+3. Modificați funcționalitatea metodei abonată la evenimentul de ItemClick, astfel încât să se deschidă activitatea de completare date pentru modificarea obiectului selectat. La deschiderea activității câmpurile sunt completate cu informațiile primite de la obiectul selectat, iar la salvare vor fi modificate în acel obiect. Mare atenție: nu adăugați un alt obiect ci îl modificați pe cel selectat.
+
+4. Pentru trimiterea obiectelor intre activitati trebuie sa folositi Parcelable.
+ 

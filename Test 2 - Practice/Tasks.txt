@@ -1,0 +1,75 @@
+Practice_1:
+
+1. Cautati pe Google o imagine in domeniul in care aveti clasa si salvati link-urile acestora.
+
+2. Adaugati o noua activitate in proiect si un buton in MainActivity care sa deschida aceasta activitate.
+
+3. In cadrul acestei activitati trebuie sa aveti un ListView cu CustomAdapter care contine imaginile identificate si un scurt text de descriere a acesteia. Layout-ul pentru ListView il creati voi cum considerati.
+
+4. Când utilizatorul da click pe una dintre imagini sau pe textul aferent imagini(un item din ListView) se deschide o alta activitate in care aveți un WebView in care deschideți direct un link cu detalii despre continutul imaginii.
+
+5. Link-urile le cautati tot voi pe Google.
+
+6. Imaginile sunt aduse de pe site in momentul deschiderii activitatii respective prin URL. Fiecare imagine are assignat un link pe care sa il deschideti atunci cand se da click pe item-ul din ListView.
+
+
+
+7. Recomandare: Utilizati o clasa care sa contina imaginea, textul afisat in listview si link-ul paginii web pe care sa o deschideti in acel WebView
+
+
+//=====================================================
+
+
+Practice_2:
+
+1. Preluati datele de la https://pdm.ase.ro/SITUATII.JSON, facand request si afisati-le
+2. Preluati datele de la https://www.bnr.ro/nbrfxrates10days.xml, facand request si afisati-le
+3. Fa o activitate noua in care preiei datele de la https://pdm.ase.ro/SITUATII.JSON, le formatezi si le afisezi
+4. Fa o activitate noua in care preiei datele de la https://www.bnr.ro/nbrfxrates10days.xml, le formatezi si le afisezi
+
+
+//=====================================================
+
+Practice_3:
+
+Implementarea unei baze de date cu ROOM.
+
+Modificati clasa din cadrul proiectului, astfel incat sa fie o entitate.
+
+Realizati interfata DAO si clasa abstracta pentru Baza de date.
+
+Realizati urmatoarele metode de lucru cu baza de date:
+
+1. Metoda de inserare in baza de date a unui obiect de tipul clasei voastre; - in activitatea de adaugare, atunci cand obiectul este creat sa il salvati in baza de date.
+
+2. Metoda de selectie a tuturor inregistrarilor din tabela; - in activitatea de afisare a obiectelor, aduceti si din baza de date obiectele salvate si le afisati in acelasi ListView.
+
+3. Alte metode de lucru cu inregistrarile din baza de date
+
+Apelati toate metodele implementate.
+
+
+//=====================================================
+
+Practice_4:
+
+(Pentru acest exercitiu am creat un fisier json pe siteul jsonbin)
+
+1. Cauta pe net fiiserul json: https://api.jsonbin.io/v3/qs/67615f75ad19ca34f8dc9394
+2. Creeaza o clasa pe baza datelor din fisierul json
+3. Citeste datele din fisierul json: afiseaza datele din fisier si creeaza obiecte pe baza datelor
+4. Baga obiectele intr o baza de date
+5. Afiseaza baza de date
+
+
+
+
+
+
+
+
+
+
+
+
+

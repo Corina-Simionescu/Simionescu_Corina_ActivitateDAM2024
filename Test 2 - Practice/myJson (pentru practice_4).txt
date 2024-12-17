@@ -1,0 +1,209 @@
+ {
+  "travels": [
+    {
+      "departureCountry": "Romania - Bucharest - Henri Coanda Airport",
+      "travelDocument": "brasilian visa",
+      "flight": 
+        {
+          "arrivalCountry": "Brasil - Rio de Janeiro - Jacarepagua Airport",
+          "dateTime": "22-12-2019 16:00PM - 23-12-2019 10:00PM",
+          "price": "420EUR",
+          "airline": "Tarom",
+          "stop":
+            {
+              "place": "Netherlands - Amsterdam - Schiphol Airport",
+              "duration": "2H 40Min",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+     {
+      "departureCountry": "Romania - Bucharest - Henri Coanda Airport",
+      "travelDocument": "passport",
+      "flight": 
+        {
+          "arrivalCountry": "France - Paris - Charles de Gaulle International Airport",
+          "dateTime": "22-12-2019 13:00PM-18:00PM",
+          "price": "280EUR",
+          "airline": "Air France",
+          "stop":
+            {
+              "place": "Netherlands - Amsterdam - Schiphol Airport",
+              "duration": "1H",
+              "lunchIncluded": "No"
+               }
+        }
+    },
+    {
+      "departureCountry": "USA - Washington DC - International Wahington Dulles Airport",
+      "travelDocument": "brasilian visa",
+      "flight":
+        {
+          "arrivalCountry": "Brasil - Rio de Janeiro - Jacarepagua Airport",
+          "dateTime": "27-12-2019 16:00PM - 28-12-2019 06:05AM",
+          "price": "420EUR",
+          "airline": "United Airlines",
+          "stop": 
+            {
+              "place": "Panama - Ciudad de Panama - Panama Airport",
+              "duration": "2H 13Min",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+    {
+      "departureCountry": "USA - Washington DC - International Wahington Dulles Airport",
+      "travelDocument": "passport",
+      "flight":
+        {
+          "arrivalCountry": "France - Paris - Charles de Gaulle International Airport",
+          "dateTime": "29-12-2019 01:13AM - 29-12-2019 11:45AM",
+          "price": "380EUR",
+          "airline": "Lufthansa",
+          "stop": 
+            {
+              "place": "Germany - Munchen - Frantz Iosef Munchen Airport",
+              "duration": "1H 05Min",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+     {
+      "departureCountry": "France - Paris - Charles de Gaulle International Airport",
+      "travelDocument": "chinese travel doc",
+      "flight":
+        {
+          "arrivalCountry": "China - Beijing - PEK Airport",
+          "dateTime": "27-12-2019 11:13AM - 28-12-2019 -03:55AM",
+          "price": "780EUR",
+          "airline": "Turkish Airlines",
+          "stop": 
+            {
+              "place": "Russia - Moscow - Moscow International Airport",
+              "duration": "3H",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+    {
+      "departureCountry": "France - Paris - Charles de Gaulle International Airport",
+      "travelDocument": "passport",
+      "flight":
+        {
+          "arrivalCountry": "Romania - Bucharest - Henri Coanda Airport",
+          "dateTime": "30-12-2019 09:23AM - 30-12-2019 13:55AM",
+          "price": "150EUR",
+          "airline": "Air France",
+          "stop": 
+            {
+              "place": "Germany - Munchen - Frantz Iosef Munchen Airport",
+              "duration": "1H",
+              "lunchIncluded": "No"
+               }
+        }
+    },
+      {
+      "departureCountry": "Belgium - Bruxelles - Bruxelles International Airport",
+      "travelDocument": "brasilian visa",
+      "flight":
+        {
+          "arrivalCountry": "Brasil - Rio de Janeiro - Jacarepagua Airport",
+          "dateTime": "02-01-2020 00:23AM - 02-01-2020 23:55PM",
+          "price": "750EUR",
+          "airline": "Qatar Airlines",
+          "stop": 
+            {
+              "place": "USA - Queens - John F. Kennedy International Airport",
+              "duration": "4H",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+     {
+      "departureCountry": "Belgium - Bruxelles - Bruxelles International Airport",
+      "travelDocument": "chinese travel doc",
+      "flight":
+        {
+          "arrivalCountry": "China - Beijing - PEK Airport",
+          "dateTime": "06-01-2020 00:23AM - 02-01-2020 12:30PM",
+          "price": "500EUR",
+          "airline": "Lufhtansa",
+          "stop": 
+            {
+              "place": "Denmark - Copenhagen - Copenhagen International Airport",
+              "duration": "2H",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+      {
+      "departureCountry": "China - Beijing - PEK Airport",
+      "travelDocument": "passport",
+      "flight":
+        {
+          "arrivalCountry": "Romania - Bucharest - Henri Coanda Airport",
+          "dateTime": "09-01-2020 07:30AM - 02-01-2020 22:30PM",
+          "price": "600EUR",
+          "airline": "Tarom",
+          "stop": 
+            {
+              "place": "Poland - Warsaw - Chopin International Airport",
+              "duration": "3H",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+      {
+      "departureCountry": "China - Beijing - PEK Airport",
+      "travelDocument": "visa",
+      "flight":
+        {
+          "arrivalCountry": "USA - Washington DC - International Wahington Dulles Airport",
+          "dateTime": "05-01-2020 08:30AM - 05-01-2020 23:30PM",
+          "price": "800EUR",
+          "airline": "Air France",
+          "stop": 
+            {
+              "place": "Japan - Narita - Narita International Airport",
+              "duration": "2H",
+              "lunchIncluded": "Yes"
+               }
+        }
+    }, 
+      {
+      "departureCountry": "Brasil - Rio de Janeiro - Jacarepagua Airport",
+      "travelDocument": "passport",
+      "flight":
+        {
+          "arrivalCountry": "Belgium - Bruxelles - Bruxelles International Airport",
+          "dateTime": "03-01-2020 14:30AM - 06-01-2020 03:30PM",
+          "price": "850EUR",
+          "airline": "Tap Air Portugal",
+          "stop": 
+            {
+              "place": "Portugal - Lisbon - Lisbon International Airport",
+              "duration": "2H 45Min",
+              "lunchIncluded": "Yes"
+               }
+        }
+    },
+      {
+      "departureCountry": "Brasil - Rio de Janeiro - Jacarepagua Airport",
+      "travelDocument": "passport",
+      "flight":
+        {
+          "arrivalCountry": "France - Paris - Charles de Gaulle International Airport",
+          "dateTime": "10-01-2020 08:30AM - 10-01-2020 20:30PM",
+          "price": "600EUR",
+          "airline": "Air France",
+          "stop": 
+            {
+              "place": "Netherlands - Amsterdam - Schiphol Airport",
+              "duration": "2H",
+              "lunchIncluded": "Yes"
+               }
+        }
+    }
+  ]
+}
+
